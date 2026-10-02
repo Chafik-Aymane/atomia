@@ -1,0 +1,21 @@
+# Build output
+build/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Compiled objects and executables
+*.exe
+*.o
+*.obj
+*.so
+*.dylib
+*.lib
+
+# Unused Raylib import library (keep libraylib.a for linking + raylib.dll for runtime)
+lib/libraylibdll.a
